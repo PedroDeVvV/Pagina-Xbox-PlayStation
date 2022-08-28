@@ -1,0 +1,81 @@
+@import url('https://fonts.google.com/specimen/Montserrat?query=mont');
+@import url('https://fonts.google.com/specimen/Roboto?query=robot');
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+
+body {
+    background-image: url(../img/bgps.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Montserrat', cursive;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.939);
+    size: 20px;
+    background: linear-gradient(#070990, #0dc6ffd6);
+    border: 4px solid rgba(0, 0, 0, 0.507);
+}
+
+p {
+    font-family: 'Roboto', cursive;
+    color: aliceblue;
+
+}
+
+h3 {
+    color: aliceblue;
+    font-family: 'MontSerrat', cursive;
+    font-size: 18px;
+    padding: 12px;
+}
+
+.sony {
+    position: relative;
+    left: 1380px;
+    bottom: 1440px;
+}
+
+.exclusivos {
+    position: relative;
+    left: 1380px;
+    bottom: 1525px
+}
+
+.borda {
+    border-radius: 10px;
+    border: 5px solid transparent;
+    background: linear-gradient(45deg, rgba(28, 7, 255, 0.749), rgb(11, 4, 87)) border-box;
+}
+
+a:link,
+a:visited {
+    background-color: #1333d5;
+    color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(10, 8, 124);
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
